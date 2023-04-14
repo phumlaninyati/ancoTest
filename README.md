@@ -1,5 +1,5 @@
 # ancoTest
-This is  test for a magento developer role
+This is a test for a magento developer role
 
 
 Download Folder ancoTest
