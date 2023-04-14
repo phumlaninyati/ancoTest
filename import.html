@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+</head>
+<body>
+    <form action="dataHandler.php" method="post" enctype="multipart/form-data">
+        <label for="csv_file">Choose CSV file to upload:</label>
+        <input type="file" id="csv_file" name="csv_file" accept=".csv">
+        <label for="variations">Number of records:</label>
+        <input type="number" id="variations" name="variations" required><br><br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+</html>
